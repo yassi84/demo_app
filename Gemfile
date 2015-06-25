@@ -23,6 +23,8 @@ group :assets do
 end
 
 gem 'jquery-rails', '~> 2.0.0'
+#// Yassi added this since  coffe_script_source 1.0.0 wasnt working
+gem 'coffee-script-source', '1.8.0'
 
 group :production do
 	gem 'pg', '0.12.2'
